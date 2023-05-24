@@ -11,4 +11,8 @@ Generate an email verification link:
 
 // Provide the user's email
 $link = $auth->getEmailVerificationLink($email);
+
+//Send the email verification link to the user
+// Send the email verification link
+$auth->sendEmailVerificationLink($email);
 ?>
